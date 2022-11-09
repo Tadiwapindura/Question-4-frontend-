@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pindura University</title>
+</head>
+<div class="navbar">
+    <h1>Pindura University Feedback</h1>
+</div>
+<body>
+    <div class="feedback">
+        <div class="feedback-checkbox">
+            <form>
+                <p>Please select what you like the most</p>
+                <div class ="checkbox">
+                    <label for="">
+                        <input type="checkbox" id="students"
+                   name="students" value="students"> Students
+                    </label>
+                  <label for="">
+                    <input type="checkbox" id="location"
+                    name="location" value="location"> Location
+                  </label>
+                  <label for="">
+                    <input type="checkbox" id="campus"
+                    name="campus" value="campus">Campus
+                  </label>
+                   <label for="">
+                    <input type="checkbox" id="atmosphere"
+                    name="atmosphere" value="atmosphere">Atmosphere
+                   </label>
+                  <label for="">
+                    <input type="checkbox" id="sports"
+                   name="sports" value="sports">Sports
+                  </label> 
+                </div>
+              </form>
+        </div>
+        <div class="feedback-form">
+            <label for="">Feedback Form</label>
+            <form action="index.html" class="feedbackForm" method="post">
+                <input type="text" name="Name" id="Name" class= "feedback-input"placeholder="Name">
+                <input type="text" name="Address" id="Address" class= "feedback-input"placeholder="Address">
+                <input type="email" name="Email" id="Email" class= "feedback-input"placeholder="Email">
+                <input type="submit" id = "submit" onclick="alert('Your feedback has been sent. Thank you;')" value="Submit Feedback">
+            </form>
+        </div>
+        <div class="feedback-radio">
+            <form>
+                <p>How did you know about us</p>
+                <div class="radios">
+                    <label for="">
+                        <input type="radio" id="friends"
+                        name="friends" value="friends"> Friends
+                    </label>
+                <label for="">
+                    <input type="radio" id="television"
+                   name="television" value="television">Television
+                </label>
+                   <label for="">
+                    <input type="radio" id="internet"
+                    name="internet" value="internet">Internet
+                   </label>
+                  <label for="">
+                    <input type="radio" id="other"
+                    name="other" value="other">Other
+                  </label>
+           
+                </div>
+              </form>
+        </div>
+    </div>    
+</body>
+</html>
